@@ -191,21 +191,25 @@
                             <div class="card-body ps-5">
                                 <div>
                                     <h2 class="card-title">Explore The Learning Institute</h2>
-                                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br><br>
-                                     Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                                    <p class="card-text">There are many variations of passages of Lorem Ipsum available,
+                                        but the majority have suffered alteration in some form, by injected humour, or
+                                        randomised words which don't look even slightly believable. If you are going to
+                                        use a passage of Lorem Ipsum, you need to be sure. <br><br>
+                                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                                        generators on the Internet tend to repeat predefined.</p>
                                 </div>
                                 <div class="rating d-flex flex-wrap justify-content-between mt-4">
                                     <div>
                                         <h2>2K+</h2>
-                                    <p>Rating and Review</p>
+                                        <p>Rating and Review</p>
                                     </div>
                                     <div>
                                         <h2>500+</h2>
-                                    <p>Expert Member</p>
+                                        <p>Expert Member</p>
                                     </div>
                                     <div>
                                         <h2>3.5K</h2>
-                                    <p>Online Course</p>
+                                        <p>Online Course</p>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary">Read More</button>
@@ -218,16 +222,48 @@
         </article>
         <!-- Modal-Section-start -->
         <div class="container">
-            <div class="row g-0 text-center bg-primary text-white align-items-center rounded-2 my-5" style="height: 35vh;">
+            <div class="row g-0 text-center bg-primary text-white align-items-center rounded-2 my-5"
+                style="height: 35vh;">
                 <div class="col-12 col-lg-8 text-lg-start px-5">
                     <h3 class="fw-semibold">Want To Join Us?</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <button class="btn btn-light btn-lg fw-semibold text-primary">Join Today</button>
+                    <button type="button" class="btn btn-primary btn-lg text-primary bg-light fw-semibold"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Join
+                        Today</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content text-start">
+                                <form class="p-5">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label text-black">Email
+                                            address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1"
+                                            class="form-label text-black">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label text-black" for="exampleCheck1">Check me
+                                            out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-        </div>
+            </div>
         <!-- Modal-Section-end -->
     </main>
 
